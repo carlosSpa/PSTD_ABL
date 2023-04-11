@@ -89,7 +89,9 @@ For the Backward dsimulation, Three ricker wavelets of f=10Hz are emitted at the
 The output data of each method is recorded at the corresponding foldiers. 
 The 21x2 simulations are defined varying the tuple (Nabl,Absorbing parameter)  according to Table 2 in the paper.
 
-DATA ANALYSIS CODE: energy.m
+DATA ANALYSIS CODE: energy.m 
+
+LIBRARIES: PE_misfit.m, ricker_wavelet_tis0.m
 
 EXECUTION: octave or matlab
 

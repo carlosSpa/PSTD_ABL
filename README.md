@@ -122,7 +122,7 @@ COMMENTS: Each folder contains a matlab code that generates the results of Table
  
  OUTPUT: 7x3 binary files EnergyAcc_NUMBER_METHOD where NUMBER=1,2,3,4,5,6,7 and METHOD=D,S,E
  
-COMMENTS: This code performs the simulation for a unit impulse source signal in the SEG SALT EAGE model for each different method (D,S,E) and for all cases listed in table 2. The simulation domain is a cube of 251x251x122 nodes, where the SEG SALT EAGE model is embedded in a homogenous medium of propagation velocity of c=2000m/s.
+COMMENTS: This code performs the simulation for a unit impulse source signal in the SEG SALT EAGE model for each different method (D,S,E) and for all cases listed in table 2. The simulation domain is a cube of 251x251x122 nodes, where the SEG SALT EAGE model is embedded in a non-homogenous velocity medium.
 In all the cases, we also fix the spatial sampling Dx=30m, the temporal step Dt=0.002s and the total simulation time to 4s.
 For the Forward simulation, a ricker point source wavelet of f=10Hz is emitted at the grid position (Nx/2,Ny/2,4).
 The output data of each method is stored at the corresponding folder. 

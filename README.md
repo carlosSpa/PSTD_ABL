@@ -2,7 +2,7 @@
 
 Introduction
 ------------
-Source code files and documentation of Calibration of Absorbing Boundary Layers (ABL) for Geoacoustic Wave Modeling in Pseudo-Spectral Time-Domain Methods.
+Source code files and documentation of Calibration of Absorbing Boundary Layers for Geoacoustic Wave Modeling in Pseudo-Spectral Time-Domain Methods.
 
 
 Code compilation: 

@@ -66,7 +66,7 @@ AUTHOR: Carlos Spa
  
  FOLDERS: damped, sponge, euler  (D,S,E)
  
- COMMENTS: Each folder contains a code in c++ that is composed by a main code and some libraries:
+ COMMENTS:  a unique code in c  is composed by a main code and some libraries. The results are recorded at each corresponding folder:
  
  
  MAIN CODE: main.c 
@@ -79,17 +79,17 @@ AUTHOR: Carlos Spa
  
  EXECUTION: ./executable
  
- OUTPUT: binary file 2x7x3 Files: "P_type_Acc_abl_method.dat" where type=F,B  abl=1,2,3,4,5,6,7 and method=D,S,E
+ OUTPUT: binary file 2x7x3 Files: "P_type_Acc_abl_method.dat" where type=F,B  abl=1,2,3,4,5,6,7 and method=D,S,E.
+ The data is recorded at each folder
  
-COMMENTS: This code calculates the forward/backward  (x2) simulations for each different method (D,S,E) and with the cases of table 2 defined in an homogeneous 
-cube of 4000x4000x4000m and a propagation velocity of c=2000m/s.
+COMMENTS: This code calculates the forward/backward  (x2) simulations for each different method (D,S,E) and with the cases of table 2 defined in an homogeneous cube of 4000x4000x4000m and a propagation velocity of c=2000m/s.
 In all the cases, we also  fix the spatial sampling Dx=40m, the temporal step Dt=0.002s and the total simulation time 4s.
 For the Forward simulation, A ricker wavelet of f=10Hz is emitted at the position (Nx/2,Ny/2,4) of the cube.
 For the Backward dsimulation, Three ricker wavelets of f=10Hz are emitted at the position (Nx/2,Ny/2,4) of the cube.
 The output data of each method is recorded at the corresponding foldiers. 
 The 21x2 simulations are defined varying the tuple (Nabl,Absorbing parameter)  according to Table 2 in the paper.
 
-DATA ANALYSIS CODE: energy.m 
+DATA ANALYSIS CODE: analisis_METHOD.m where METHOD=D,S,E
 
 LIBRARIES: PE_misfit.m, ricker_wavelet_tis0.m
 
@@ -97,7 +97,7 @@ EXECUTION: octave or matlab
 
 OUTPUT: Table 3. 
 
- COMMENTS: Each folder contains a code in matlab that generates the results of Table 3
+COMMENTS: Each folder contains a code in matlab that generates the results of Table 3
  
 
 **Test 3**
@@ -107,9 +107,11 @@ OUTPUT: Table 3.
 
 DATE: 22-06-2022
  
-FOLDERS: malla2, malla2/damped,malla2/sponge, malla2/euler 
+FOLDERS: the folder "Mesh" should be download at:
  
-COMMENTS: These folders contain different binary files used as input files in the code
+ 
+COMMENTS: It should be instaled atthe same folder than the C code is located. 
+These folders contain different binary files used as input files in the code
  
  MAIN CODE: main.c 
  

@@ -96,7 +96,7 @@ OUTPUT: Table 3.
 COMMENTS: Each folder contains a matlab code that generates the results of Table 3
  
 
-**Test 3 (SEG-SALT EAGE)**
+**Test 3 (EAGE SEG-SALT)**
 -------------
 
  AUTHOR: Carlos Spa

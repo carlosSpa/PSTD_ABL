@@ -103,7 +103,7 @@ COMMENTS: Each folder contains a matlab code that generates the results of Table
 
  DATE: 22-06-2022
  
- FOLDERS: the folder "Mesh" should be downloaded from:
+ FOLDERS: the folder "Mesh" should be downloaded from: 10.5281/zenodo.7821703
  
  COMMENTS: It should be unzip at the same folder where the main C code is stored. 
  The "Mesh" folder contains three sub-folders (damped,sponge,euler) with different binary files used as input files by the main code

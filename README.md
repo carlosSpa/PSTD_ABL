@@ -126,7 +126,7 @@ COMMENTS: This code performs the simulation for a unit impulse source signal in 
 In all the cases, we also fix the spatial sampling Dx=30m, the temporal step Dt=0.002s and the total simulation time to 4s.
 For the Forward simulation, a ricker point source wavelet of f=10Hz is emitted at the grid position (Nx/2,Ny/2,4).
 The output data of each method is stored at the corresponding folder. 
-Each method performs 7 simulations by varying the tuple (Nabl,Absorbing parameter) according to Table 2 in the paper, in adition to one reference simulation perfomed by the PML method.
+Each method performs 7 simulations by varying the tuple (Nabl,Absorbing parameter) according to Table 2 in the paper, in addition to one reference simulation perfomed by the PML method.
 
 DATA ANALYSIS CODE: energy.m
 
